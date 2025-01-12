@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "Software Engineer turned Entrepreneur. I love building things and helping people. Very active on Twitter.",
   summary:
-    "At the end of 2022, I quit my job as a software engineer to go fulltime into building and scaling my own SaaS businesses. In the past, [I pursued a double degree in computer science and business](/#education), [interned at big tech companies in Silicon Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 hackathons for fun](/#hackathons). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1).",
+    "At the end of 2022, I quit my job as a software engineer to go fulltime into building and scaling my own SaaS businesses. In the past, [I pursued a double degree in computer science and business](/#education), [interned at big tech companies in Silicon Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 techSharing for fun](/#techSharing). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1).",
   avatarUrl: "/avatar.webp",
   skills: [
     "HTML",
@@ -39,6 +39,8 @@ export const DATA = {
     "MongoDB",
     "Mongoose",
     "RESTful API",
+    "Socket.io",
+    "Git",
     "Docker",
     "Figma",
   ],
@@ -122,15 +124,15 @@ export const DATA = {
   education: [
     {
       school: "緯育 TibaMe",
-      href: "https://buildspace.so",
-      degree: "前端工程師專業技術養成班",
+      href: "https://www.tibame.com/goodjob/frontend/location/JungliCenter",
+      degree: "前端工程師專業技術養成班中壢第79期",
       logoUrl: "/TibaMe.svg",
       start: "August 2022",
       end: "January 2023",
     },
     {
       school: "國立高雄科技大學",
-      href: "https://uwaterloo.ca",
+      href: "https://ifad.nkust.edu.tw/",
       degree: "應用德語系",
       logoUrl: "NKUST.svg",
       start: "September 2016",
@@ -138,7 +140,7 @@ export const DATA = {
     },
     {
       school: "國立中科實驗高級中學",
-      href: "https://wlu.ca",
+      href: "https://www.nehs.tc.edu.tw/",
       degree: "普通科",
       logoUrl: "/NEHS@CTSP.svg",
       start: "September 2013",
@@ -152,7 +154,7 @@ export const DATA = {
       dates: "Jan 2024 - Now",
       active: true,
       description:
-        "此專案為期兩個月，作為公司的官方網站，採用了剛推出的 Nuxt 3 作為核心框架，結合伺服器端渲染 (SSR) 與靜態站點生成 (SSG)，提供卓越的效能與 SEO 表現。由於無後端支援，使用 Nuxt Content 進行內容管理，並針對 Markdown 文件進行樣式調整與專屬組件開發，以實現高度客製化展示。網站樣式以 SASS 定義，搭配 RWD 確保跨裝置使用體驗，並整合 AOS 實現滾動動畫效果。SEO 設定包含關鍵字、描述、圖片等，並運用 Nuxt SEO 強化搜尋引擎優化。",
+        "此專案為期兩個月，旨在打造公司的官方網站，採用最新推出的 Nuxt 3 作為核心框架，以實現卓越的效能與 SEO 表現。由於專案無後端支援，使用 Nuxt Content 作為內容管理工具，並針對 Markdown 文件進行樣式調整與專屬組件開發，以達到高度客製化的展示效果。網站樣式採用 SASS 定義，結合 RWD 設計，確保跨裝置的良好使用體驗，並透過整合 AOS 提升視覺動態效果。SEO 設定涵蓋關鍵字、描述及圖片等，並運用 Nuxt SEO 進一步強化搜尋引擎優化，打造高效能且精緻的官方網站。",
       technologies: [
         "Typescript",
         "Vue",
@@ -171,7 +173,7 @@ export const DATA = {
       ],
       links: [
         {
-          type: "Website",
+          type: "網站連結",
           href: "https://auto-aiot.com/",
           icon: <Icons.globe className="size-3" />,
         },
@@ -189,7 +191,7 @@ export const DATA = {
       technologies: ["Typescript", "Vite", "Vue", "Vite Plugin SSR", "Vue 3 Carousel", "Particles", "SASS"],
       links: [
         {
-          type: "Website",
+          type: "網站連結",
           href: "https://www.mindnodeair.com/",
           icon: <Icons.globe className="size-3" />,
         },
@@ -207,7 +209,7 @@ export const DATA = {
       technologies: ["Typescript", "Vite", "Vue", "Vue Router", "VueUse", "Pinia", "Axios", "SASS"],
       links: [
         {
-          type: "Website",
+          type: "網站連結",
           href: "https://www.twmakers.com.tw/web/game/game_mex.jsp#gameInId",
           icon: <Icons.globe className="size-3" />,
         },
@@ -279,7 +281,7 @@ export const DATA = {
       ],
       links: [
         {
-          type: "系統介紹",
+          type: "系統文件",
           href: "https://gamma.app/docs/JOB--r26uza4hcudyqnw",
           icon: <Icons.document className="size-3" />,
         },
@@ -292,11 +294,12 @@ export const DATA = {
       href: "",
       dates: "Apr 2023 - Now",
       active: true,
-      description: "",
-      technologies: ["Typescript", "Vite", "Vue", "Vue Router", "Pinia", "Axios", "Naive UI", "SASS"],
+      description:
+        "此系統專為三軍總醫院運動醫學中心量身打造，透過 Web Socket 技術實現硬體設備資訊的即時接收，讓儀表板即時呈現患者位置、生理數據、設備使用狀況及當日報到情況等關鍵資訊。系統以 Axios 串接 API，讓醫療人員能便捷檢視患者醫療記錄，並與硬體設備深度整合，支持遠端控制、即時查看復健影像及將影像投放至指定螢幕功能。同時，系統採用 Naive UI 與 SASS 打造直觀且高效的操作介面，為醫療人員提供靈活可靠的智慧醫療管理解決方案。",
+      technologies: ["Typescript", "Vite", "Vue", "Vue Router", "Pinia", "Socket.io", "Axios", "Naive UI", "SASS"],
       links: [
         {
-          type: "系統介紹",
+          type: " ",
           href: "https://gamma.app/docs/-c1s8mlc992ts08r",
           icon: <Icons.document className="size-3" />,
         },
@@ -310,7 +313,7 @@ export const DATA = {
       video: "",
     },
     {
-      title: "算你好命",
+      title: "算你好命 - 商圈活動互動遊戲",
       href: "https://destiny-decoded.netlify.app/",
       dates: "Oct 2024",
       active: false,
@@ -319,7 +322,7 @@ export const DATA = {
       technologies: ["Typescript", "Vite", "React", "React Router", "Tailwind CSS"],
       links: [
         {
-          type: "Website",
+          type: "網站連結",
           href: "https://destiny-decoded.netlify.app/",
           icon: <Icons.globe className="size-3" />,
         },
@@ -332,8 +335,63 @@ export const DATA = {
       image: "/destiny-decoded.svg",
       video: "",
     },
+    {
+      title: "KOALA+ - 團體專題",
+      href: "https://tibamef2e.com/cgd103/g1/",
+      dates: "Nov 2022 - Jan 2023",
+      active: false,
+      description: "",
+      technologies: ["JavaScript", "Vue", "Vue Router", "Vuex", "Chart.js", "View UI", "SASS", "PHP", "MySQL"],
+      links: [
+        {
+          type: "網站連結",
+          href: "https://tibamef2e.com/cgd103/g1/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "程式碼",
+          href: "https://github.com/bear320/KOALA_PLUS",
+          icon: <Icons.github className="size-3" />,
+        },
+        {
+          type: "網站介紹",
+          href: "https://drive.google.com/drive/folders/1fEmgaFUQs50ahVwBlitKgMuD3DcOfTMX?usp=sharing",
+          icon: <Icons.document className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "/koala+.mp4",
+    },
+    {
+      title: "GERCERY 德式選物店 - 個人專題",
+      href: "https://bear320.github.io/GERCERY/",
+      dates: "Oct 2022 - Nov 2022",
+      active: false,
+      description:
+        "這個網站是我在學習 HTML、CSS 和 JavaScript 後，人生中親手打造的第一個網站，同時也是培訓班的個人專題。從構思網站架構與目標受眾，到制定設計規範、設計 Wireframe 和 Mockup，再到網站開發，整個過程全由我一手完成。這段期間雖然充滿挑戰，但我瘋狂汲取了大量知識與經驗，最終成功完成了一個完整的網站，並榮獲「最佳網站」第三名及「介面設計」第三名的佳績。",
+      technologies: ["HTML", "CSS", "JavaScript", "Owl Carousel", "Slick"],
+      links: [
+        {
+          type: "網站連結",
+          href: "https://bear320.github.io/GERCERY/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "程式碼",
+          href: "https://github.com/bear320/GERCERY",
+          icon: <Icons.github className="size-3" />,
+        },
+        {
+          type: "網站介紹",
+          href: "https://drive.google.com/file/d/1cGeferRUBEvxP8xri7ax7BIVxopqiKow/view?usp=sharing",
+          icon: <Icons.document className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "/gercery.mp4",
+    },
   ],
-  hackathons: [
+  techSharing: [
     {
       title: "Hack Western 5",
       dates: "November 23rd - 25th, 2018",
