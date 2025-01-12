@@ -1,11 +1,5 @@
 import { Badge } from "@/components/ui/badge";
-import {
-  Card,
-  CardContent,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
+import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { cn } from "@/lib/utils";
 import Image from "next/image";
 import Link from "next/link";
@@ -28,28 +22,12 @@ interface Props {
   className?: string;
 }
 
-export function ProjectCard({
-  title,
-  href,
-  description,
-  dates,
-  tags,
-  link,
-  image,
-  video,
-  links,
-  className,
-}: Props) {
+export function ProjectCard({ title, href, description, dates, tags, link, image, video, links, className }: Props) {
   return (
     <Card
-      className={
-        "flex flex-col overflow-hidden border hover:shadow-lg transition-all duration-300 ease-out h-full"
-      }
+      className={"flex flex-col overflow-hidden border hover:shadow-lg transition-all duration-300 ease-out h-full"}
     >
-      <Link
-        href={href || "#"}
-        className={cn("block cursor-pointer", className)}
-      >
+      <Link href={href || "#"} className={cn("block cursor-pointer aspect-video", className)}>
         {video && (
           <video
             src={video}
@@ -57,7 +35,7 @@ export function ProjectCard({
             loop
             muted
             playsInline
-            className="pointer-events-none mx-auto h-40 w-full object-cover object-top" // needed because random black line at bottom of video
+            className="pointer-events-none mx-auto w-full h-full object-cover object-top" // needed because random black line at bottom of video
           />
         )}
         {image && (
@@ -66,7 +44,7 @@ export function ProjectCard({
             alt={title}
             width={500}
             height={300}
-            className="h-40 w-full overflow-hidden object-cover object-top"
+            className="h-full w-full overflow-hidden object-cover object-top"
           />
         )}
       </Link>
@@ -86,11 +64,7 @@ export function ProjectCard({
         {tags && tags.length > 0 && (
           <div className="mt-2 flex flex-wrap gap-1">
             {tags?.map((tag) => (
-              <Badge
-                className="px-1 py-0 text-[10px]"
-                variant="secondary"
-                key={tag}
-              >
+              <Badge className="px-1 py-0 text-[10px]" variant="secondary" key={tag}>
                 {tag}
               </Badge>
             ))}
