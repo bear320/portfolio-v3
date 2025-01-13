@@ -20,9 +20,9 @@ export default function Page() {
             <div className="flex-col flex flex-1 space-y-1.5">
               <BlurFadeText
                 delay={BLUR_FADE_DELAY}
-                className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-5xl/none"
+                className="text-2xl font-bold tracking-tighter sm:text-5xl xl:text-5xl/none"
                 yOffset={8}
-                text={`哈囉！我是${DATA.name.split(" ")[0]} 👋`}
+                text={`嗨！我是${DATA.name.split(" ")[0]} 👋`}
               />
               <BlurFadeText className="max-w-[600px] md:text-xl" delay={BLUR_FADE_DELAY} text={DATA.description} />
             </div>
@@ -37,7 +37,7 @@ export default function Page() {
       </section>
       <section id="about">
         <BlurFade delay={BLUR_FADE_DELAY * 3}>
-          <h2 className="text-xl font-bold">About</h2>
+          <h2 className="text-xl font-bold">About 📝</h2>
         </BlurFade>
         <BlurFade delay={BLUR_FADE_DELAY * 4}>
           <Markdown className="prose max-w-full text-pretty font-sans text-sm text-muted-foreground dark:prose-invert">
@@ -48,7 +48,7 @@ export default function Page() {
       <section id="work">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 5}>
-            <h2 className="text-xl font-bold">Work Experience</h2>
+            <h2 className="text-xl font-bold">Work Experience 💼</h2>
           </BlurFade>
           {DATA.work.map((work, id) => (
             <BlurFade key={work.company} delay={BLUR_FADE_DELAY * 6 + id * 0.05}>
@@ -70,7 +70,7 @@ export default function Page() {
       <section id="education">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 7}>
-            <h2 className="text-xl font-bold">Education</h2>
+            <h2 className="text-xl font-bold">Education 🎓</h2>
           </BlurFade>
           {DATA.education.map((education, id) => (
             <BlurFade key={education.school} delay={BLUR_FADE_DELAY * 8 + id * 0.05}>
@@ -90,7 +90,7 @@ export default function Page() {
       <section id="skills">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 9}>
-            <h2 className="text-xl font-bold">Skills</h2>
+            <h2 className="text-xl font-bold">Skills 🛠️</h2>
           </BlurFade>
           <div className="flex flex-wrap gap-1">
             {DATA.skills.map((skill, id) => (
@@ -109,9 +109,9 @@ export default function Page() {
                 <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
                   My Projects
                 </div>
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">來看看我做過些什麼</h2>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">成果展示，靈感碰撞！🎉</h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  從簡單網站到複雜應用程式，我參與了許多或有趣、或具挑戰性的專案，快來了解一下吧！
+                  從簡單網站到複雜應用程式，我參與了許多富有創意且充滿挑戰的專案，快來了解一下吧！💡
                 </p>
               </div>
             </div>
@@ -143,11 +143,9 @@ export default function Page() {
                 <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
                   Tech Sharing
                 </div>
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">I like building things</h2>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">前端開發筆記 💻</h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  During my time in university, I attended {DATA.techSharing.length}+ techSharing. People from around
-                  the country would come together and build incredible things in 2-3 days. It was eye-opening to see the
-                  endless possibilities brought to life by a group of motivated and passionate individuals.
+                  從新技術到實戰經驗，每一個分享都充滿了挑戰與收穫，讓我們一起跟上前端的脈動！⚡
                 </p>
               </div>
             </div>
@@ -175,10 +173,17 @@ export default function Page() {
           <BlurFade delay={BLUR_FADE_DELAY * 16}>
             <div className="space-y-3">
               <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">Contact</div>
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Get in Touch</h2>
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">靈感乍現？我想聽聽！✨</h2>
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Want to chat? Just shoot me a dm with a direct question on twitter and I&apos;ll respond whenever I can.
-                I will ignore all soliciting.
+                有話想說嗎？隨時聯絡我！你可以撥打我的電話{" "}
+                <a href="tel:+886960779920" className="text-blue-500 hover:underline">
+                  +886-960779920
+                </a>{" "}
+                或發送郵件到{" "}
+                <a href="mailto:aaabear320@gmail.com" className="text-blue-500 hover:underline">
+                  aaabear320@gmail.com
+                </a>
+                ，我會盡快回應你！
               </p>
             </div>
           </BlurFade>
