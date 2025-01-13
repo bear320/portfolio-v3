@@ -39,19 +39,11 @@ export const ResumeCard = ({
   };
 
   return (
-    <Link
-      href={href || "#"}
-      className="block cursor-pointer"
-      onClick={handleClick}
-    >
+    <Link href={href || "#"} target="_blank" className="block cursor-pointer" onClick={handleClick}>
       <Card className="flex">
         <div className="flex-none">
           <Avatar className="border size-12 m-auto bg-muted-background dark:bg-foreground">
-            <AvatarImage
-              src={logoUrl}
-              alt={altText}
-              className="object-contain"
-            />
+            <AvatarImage src={logoUrl} alt={altText} className="object-contain" />
             <AvatarFallback>{altText[0]}</AvatarFallback>
           </Avatar>
         </div>
@@ -63,11 +55,7 @@ export const ResumeCard = ({
                 {badges && (
                   <span className="inline-flex gap-x-1">
                     {badges.map((badge, index) => (
-                      <Badge
-                        variant="secondary"
-                        className="align-middle text-xs"
-                        key={index}
-                      >
+                      <Badge variant="secondary" className="align-middle text-xs" key={index}>
                         {badge}
                       </Badge>
                     ))}
@@ -80,9 +68,7 @@ export const ResumeCard = ({
                   )}
                 />
               </h3>
-              <div className="text-xs sm:text-sm tabular-nums text-muted-foreground text-right">
-                {period}
-              </div>
+              <div className="text-xs sm:text-sm tabular-nums text-muted-foreground text-right">{period}</div>
             </div>
             {subtitle && <div className="font-sans text-xs">{subtitle}</div>}
           </CardHeader>

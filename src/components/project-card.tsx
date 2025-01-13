@@ -27,7 +27,7 @@ export function ProjectCard({ title, href, description, dates, tags, link, image
     <Card
       className={"flex flex-col overflow-hidden border hover:shadow-lg transition-all duration-300 ease-out h-full"}
     >
-      <Link href={href || "#"} className={cn("block cursor-pointer aspect-video", className)}>
+      <Link href={href || "#"} target="_blank" className={cn("block cursor-pointer aspect-video", className)}>
         {video && (
           <video
             src={video}
