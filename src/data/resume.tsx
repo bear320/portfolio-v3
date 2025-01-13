@@ -5,10 +5,10 @@ export const DATA = {
   name: "熊伯祥",
   initials: "DV",
   url: "https://dillion.io",
-  location: "Taichung, Taiwan🇹🇼",
+  location: "Taichung, Taiwan 🇹🇼",
   locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description:
-    "從翻譯專業跨界成為前端工程師，致力於打造既精準又具美感的網站與應用程式，熱愛技術 💻 與設計 🎨 的完美融合！",
+    "從翻譯產業跨界成為前端工程師，致力於打造既精準又具美感的網站與應用程式，熱愛技術 💻 與設計 🎨 的完美融合！",
   summary:
     "在翻譯這條路上，我深刻體會到精準與細節的魔力！✨ 因為不管是文字還是程式，一個小小的差錯都可能影響整個成品。這份追求完美的精神，我將它帶入前端開發的旅程中，致力打造既吸睛又貼心的網站和應用程式。💻 從翻譯到程式碼，我就像個專業的翻譯官，一邊協助機器理解使用者的需求，一邊將這些想法轉化成絕妙的解決方案！🚀 每個專案對我來說都是一場挑戰，更是創意與精準並存的精彩冒險！",
   avatarUrl: "/avatar.webp",
