@@ -14,7 +14,8 @@ interface BlurFadeProps {
   delay?: number;
   yOffset?: number;
   inView?: boolean;
-  inViewMargin?: string;
+  // inViewMargin?: string;
+  inViewMargin?: `${number}px` | `${number}%` | `${number}px ${number}px ${number}px ${number}px`;
   blur?: string;
 }
 const BlurFade = ({
