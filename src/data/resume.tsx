@@ -8,14 +8,13 @@ export const DATA = {
   location: "Taichung, Taiwan 🇹🇼",
   locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description:
-    "從翻譯產業跨界成為前端工程師，致力於打造既精準又具美感的網站與應用程式，熱愛技術 💻 與設計 🎨 的完美融合！",
+    "從翻譯產業跨界成為前端工程師，致力於打造擁有優秀使用者體驗與美感的網站與應用程式，熱愛技術 💻 與設計 🎨 的完美結合！",
   summary:
-    "在翻譯這條路上，我深刻體會到精準與細節的魔力！✨ 因為不管是文字還是程式，一個小小的差錯都可能影響整個成品。這份追求完美的精神，我將它帶入前端開發的旅程中，致力打造既吸睛又貼心的網站和應用程式。💻 從翻譯到程式碼，我就像個專業的翻譯官，一邊協助機器理解使用者的需求，一邊將這些想法轉化成絕妙的解決方案！🚀 每個專案對我來說都是一場挑戰，更是創意與精準並存的精彩冒險！",
+    "翻譯產業的工作經驗使我深刻體會到精準與細節的重要性！✨ 不管是文字還是程式，一個小小的差錯都可能影響整個成品，這份追求完美的精神，我將它帶入前端開發的旅程中，致力打造既吸睛又貼心的網站和應用程式。💻 從構思到程式碼，我就如同一位轉譯者，一邊協助機器理解使用者的需求，一邊將這些想法轉化成絕妙的解決方案！🚀 每個專案對我來說都是一場挑戰，更是創意與精準並存的精彩冒險！",
   avatarUrl: "/avatar.webp",
   skills: [
     "HTML",
     "CSS",
-    "SASS",
     "JavaScript",
     "TypeScript",
     "Vite",
@@ -30,8 +29,9 @@ export const DATA = {
     "Redux",
     "Zustand",
     "React Query",
-    "Axios",
+    "Sass",
     "Tailwind CSS",
+    "Axios",
     "GSAP",
     "Zod",
     "i18n",
@@ -92,20 +92,18 @@ export const DATA = {
       logoUrl: "/autoaiot.svg",
       start: "January 2024",
       end: "Now",
-      description:
-        "在奧圖數位互動科技有限公司擔任前端工程師期間，TypeScript 和 Vue 仍是我的主要開發框架。期間，我自學了 Nuxt 3，並將其應用於公司官網的開發。隨後，我進一步學習了 React 和 Next.js，並在商圈活動專案中實際運用 React 和 Tailwind CSS 開發網頁互動遊戲。負責的專案包括執行 113 年度「技職大玩JOB」專案，涵蓋官網維運、新後台管理系統的新增功能、梅克獅功能擴充以及開發 3 款小遊戲。此外，我也參與了可口可樂互動闖關專案及抽獎系統的開發，並在三軍總醫院運動醫學中心智慧戰情室分析系統的開發中，處理了迄今為止最具規模與複雜度的挑戰。",
+      description: "負責前端開發、互動系統實作、後台管理系統建構，並參與商業活動遊戲開發、醫療機構分析平台建置。",
     },
     {
       company: "脈動心聯股份有限公司",
       href: "https://www.mindnodeair.com/",
       badges: [],
-      location: "Taichung Taiwan",
+      location: "Taichung, Taiwan",
       title: "前端工程師 (Vue.js)",
       logoUrl: "/mindnodeair.svg",
       start: "April 2023",
       end: "January 2024",
-      description:
-        "在脈動心聯股份有限公司擔任前端工程師期間，我主要使用 TypeScript 和 Vue 進行前端開發。負責的專案包括執行 112 年度「技職大玩JOB」專案，涵蓋官網維運、新後台管理系統搭建、梅克獅重構以及開發 3 款小遊戲。此外，我也參與了公司官網搭建、AIoT 展覽互動遊戲開發、公司內部場域監控系統開發，以及網頁頁面和電子報模板的設計與開發等工作。後來，因公司組織結構異動，我調職至子公司奧圖數位互動科技有限公司，繼續擔任前端工程師。",
+      description: "負責平台系統開發、網站維運、遊戲製作，並參與場域監控系統建置、互動展覽實作、電子報開發。",
     },
     {
       company: "ProLINK International Translation Service Limited",
@@ -116,8 +114,7 @@ export const DATA = {
       logoUrl: "/prolink.svg",
       start: "December 2021",
       end: "April 2022",
-      description:
-        "在 ProLINK International Translation Service Limited 擔任專案協調員期間，負責文件翻譯（中/英/德文）、編輯、排版、校對與文案撰寫等工作，具備基礎的 Adobe Illustrator、Photoshop 和 InDesign 使用能力，並具專案管理與多媒體製作經驗。參與專案包括香港衛生署「疫苗接種宣傳影片」製作及品牌刊物「連繫．香港2021–22」等，並協助專案管理及其他主管交辦事項。",
+      description: "負責文件翻譯、編輯、排版、校對及文案撰寫，並參與專案管理與多媒體製作。",
     },
   ],
   education: [
@@ -153,7 +150,7 @@ export const DATA = {
       dates: "January 2024 - Now",
       active: true,
       description:
-        "此專案為期兩個月，旨在打造公司的官方網站，採用最新推出的 Nuxt 3 作為核心框架，以實現卓越的效能與 SEO 表現。由於專案無後端支援，使用 Nuxt Content 作為內容管理工具，並針對 Markdown 文件進行樣式調整與專屬組件開發，以達到高度客製化的展示效果。網站樣式採用 SASS 定義，結合 RWD 設計，確保跨裝置的良好使用體驗，並透過整合 AOS 提升視覺動態效果。SEO 設定涵蓋關鍵字、描述及圖片等，並運用 Nuxt SEO 進一步強化搜尋引擎優化，打造高效能且精緻的官方網站。",
+        "此專案為期兩個月，旨在打造公司的官方網站，採用當時新推出的 Nuxt 3 作為核心框架，以實現卓越的 SEO 表現。由於專案無後端支援，遂採用 Nuxt Content 作為內容管理工具，並針對 Markdown 文件進行樣式調整與專屬組件開發，以達到高度客製化的文章展示效果。網站樣式採用 Sass 定義，結合 RWD 設計，確保跨裝置的良好使用體驗，並透過整合 AOS 提升視覺動態效果。SEO 設定涵蓋關鍵字、描述及圖片等，並運用 Nuxt SEO 進一步強化搜尋引擎優化，打造高效能且精緻的官方網站。",
       technologies: [
         "Typescript",
         "Vue",
@@ -167,7 +164,7 @@ export const DATA = {
         "Vitest",
         "AOS",
         "Swiper",
-        "SASS",
+        "Sass",
         "Google Analytics",
       ],
       links: [
@@ -186,8 +183,8 @@ export const DATA = {
       dates: "October 2023 - December 2023",
       active: true,
       description:
-        "由於公司舊官網的設計風格已過時且內容長期未更新，因此由我負責開發全新官方網站。考量尚未熟悉 Nuxt 框架，我選擇使用 Vite Plugin SSR 實現伺服器端渲染 (SSR)，以提升網站的 SEO 和效能。在樣式設計方面，運用 Sass 撰寫模組化與響應式的 CSS，並結合 VueUse 提高功能開發效率。此外，專案整合了 Vue 3 Carousel 和 Particles，分別實現圖片輪播效果與粒子動畫，為網站增添視覺吸引力與互動性。",
-      technologies: ["Typescript", "Vite", "Vue", "Vite Plugin SSR", "Vue 3 Carousel", "Particles", "SASS"],
+        "由於公司舊版官網的設計風格已顯過時且內容長期未更新，我負責重新開發全新官方網站。考量到對 Nuxt 框架尚不熟悉，我選擇使用 Vite Plugin SSR 實現伺服器端渲染 (SSR)，以提升網站效能，同時結合 Ranking 來持續改善與提升 SEO 排名。在專案中，我使用了 VueUse 來提升開發效率，並整合了 Vue 3 Carousel 和 Particles，分別實現圖片輪播效果與粒子動畫，讓網站的視覺效果更具吸引力與互動性。",
+      technologies: ["Typescript", "Vite", "Vue", "Vite Plugin SSR", "Vue 3 Carousel", "Particles", "Sass"],
       links: [
         {
           type: "網站連結",
@@ -204,8 +201,8 @@ export const DATA = {
       dates: "April 2023 - Now",
       active: true,
       description:
-        "當我接手該專案時，技術債已經累積至難以輕易解決的程度，各組件間高度耦合，任何改動都牽一髮而動全身，導致維運成本遠超過重構成本。為了解決這些問題，我與設計師密切合作，花了四到五個月的時間，對整個遊戲的介面設計與功能進行全面改版。這次改版不僅提升了系統的穩定性與可維護性，還引入了全新職業、新增圖鑑功能以及公告功能，讓遊戲內容更加多樣化。同時，我們開放了更多獅子的飼養選項，增強了玩家的選擇空間和遊戲的深度。隨著這些優化措施的實施，目前遊戲已經吸引了 2,145 位玩家參與，並持續增長。",
-      technologies: ["Typescript", "Vite", "Vue", "Vue Router", "VueUse", "Pinia", "Axios", "SASS"],
+        "當我接手該專案時，技術債已經累積至難以輕易解決的程度，各組件間高度耦合，任何改動都牽一髮而動全身，導致維運成本遠超過重構成本。為了解決這些問題，我與設計師密切合作，花了四到五個月的時間，對整個遊戲的介面設計與功能進行全面改版，不僅提升了系統的穩定性與可維護性，還引入了全新職業、新增圖鑑功能以及公告功能，讓遊戲內容更加多樣化。同時，我們開放了更多獅子的飼養選項，增強了玩家的選擇空間和遊戲的深度，目前遊戲已吸引了 2,145 位玩家參與並持續增長。",
+      technologies: ["Typescript", "Vite", "Vue", "Vue Router", "VueUse", "Pinia", "Axios", "Sass"],
       links: [
         {
           type: "網站連結",
@@ -223,7 +220,7 @@ export const DATA = {
       active: true,
       description:
         "在接手專案的兩年間，我開發了六款新遊戲，包括「經營大亨」、「魔法寶石大冒險」、「快門冒險」、「夢畫奇緣」、「菜鳥出任務」及「自給自足大冒險」，遊戲內容多元且富挑戰性。初期使用 Vue 開發，後來自學 React 並成功應用於後續開發，這不僅提升了我的技術能力，還促使我思考並解決開發中的各種挑戰。至今，這六款遊戲已累積超過 7,400 次遊玩，為專案帶來了良好的成效與用戶參與度。",
-      technologies: ["Typescript", "Vite", "Vue", "Vue Router", "VueUse", "Pinia", "Axios", "SASS"],
+      technologies: ["Typescript", "Vite", "Vue", "Vue Router", "VueUse", "Pinia", "Axios", "Sass"],
       links: [
         {
           type: "經營大亨",
@@ -265,7 +262,7 @@ export const DATA = {
       dates: "April 2023 - Now",
       active: true,
       description:
-        "此專案為一個後台管理系統，主要用於控管前台系統並提供數據分析及內容管理功能。主要功能包括：技職大玩 JOB 網站數據分析、Google Analytics 數據展示、電子報及寄送群組管理（CRUD 操作）、梅克獅公告及背景管理（CRUD 操作）、以及帳號管理。數據可視化方面，使用 ECharts 來呈現各項數據；而電子報與梅克獅公告則透過 Quill 富文本編輯器進行內容管理。此外，系統界面採用了 Naive UI 作為 UI 組件庫，並搭配 SASS 來進行樣式設計，以實現一個高效且易於維護的管理介面。",
+        "此專案主要用於控管網站前台系統並提供數據分析及內容管理功能，主要功能包括：技職大玩 JOB 網站數據分析、Google Analytics 數據展示、電子報及寄送群組管理（CRUD 操作）、梅克獅公告及背景管理（CRUD 操作）及帳號管理。資料視覺化方面，使用 ECharts 來呈現各項數據；而電子報與梅克獅公告則透過 Quill 富文本編輯器進行內容管理。",
       technologies: [
         "Typescript",
         "Vite",
@@ -276,7 +273,7 @@ export const DATA = {
         "ECharts",
         "Vue Quill",
         "Naive UI",
-        "SASS",
+        "Sass",
       ],
       links: [
         {
@@ -294,8 +291,8 @@ export const DATA = {
       dates: "April 2024 - October 2024",
       active: true,
       description:
-        "此系統專為三軍總醫院運動醫學中心量身打造，透過 Web Socket 技術實現硬體設備資訊的即時接收，讓儀表板即時呈現患者位置、生理數據、設備使用狀況及當日報到情況等關鍵資訊。系統以 Axios 串接 API，讓醫療人員能便捷檢視患者醫療記錄，並與硬體設備深度整合，支持遠端控制、即時查看復健影像及將影像投放至指定螢幕功能。同時，系統採用 Naive UI 與 SASS 打造直觀且高效的操作介面，為醫療人員提供靈活可靠的智慧醫療管理解決方案。",
-      technologies: ["Typescript", "Vite", "Vue", "Vue Router", "Pinia", "Socket.io", "Axios", "Naive UI", "SASS"],
+        "此系統專為三軍總醫院運動醫學中心量身打造，透過 Web Socket 技術實現硬體設備資訊的即時接收，讓儀表板即時呈現患者位置、生理數據、設備使用狀況及當日報到情況等關鍵資訊。系統以 Axios 串接 API，讓醫療人員能便捷檢視患者醫療紀錄，並與硬體設備深度整合，支援遠端控制、即時查看復健影像及將影像投放至指定螢幕功能。",
+      technologies: ["Typescript", "Vite", "Vue", "Vue Router", "Pinia", "Socket.io", "Axios", "Naive UI", "Sass"],
       links: [
         {
           type: " ",
@@ -317,7 +314,7 @@ export const DATA = {
       dates: "October 2024",
       active: false,
       description:
-        "這款算命小遊戲是為彰化縣打石巷形象商圈活動設計，結合塔羅牌與網路技術，讓使用者隨時查看當日運勢。作為我自學 React 後的首個專案，使用 TypeScript 提高程式碼可維護性，React 構建應用，並利用 React Router 實現頁面切換，最後透過 Tailwind CSS 打造響應式 UI，開發週期約一週。",
+        "這款算命小遊戲是為彰化縣打石巷形象商圈活動所設計，將塔羅牌與網路技術相結合，讓使用者隨時查詢當日運勢。作為我自學 React 後的首個實際專案，我使用 TypeScript 提高程式碼的可維護性，並藉由 Tailwind CSS 實現快速開發，整個開發週期約為一週。",
       technologies: ["Typescript", "Vite", "React", "React Router", "Tailwind CSS"],
       links: [
         {
@@ -340,8 +337,8 @@ export const DATA = {
       dates: "November 2022 - January 2023",
       active: false,
       description:
-        "此專案是我參與的培訓課程團體專題，也是我首次在團隊中擔任組長的角色。專案的前端部分選用了 Vue 作為開發框架，後端則使用 PHP 與 MySQL。每位組員不僅負責設計與開發自己負責的頁面，還需要撰寫專屬的 API 以進行資料庫操作。在此過程中，我擔任組長，主要負責協調組員的工作分配、設定專案目標與監控進度。我定期與組員進行溝通，解決問題並確保專案順利執行。最終，我們在發表日展示了高完成度的成品，並順利完成了這次挑戰。",
-      technologies: ["JavaScript", "Vue", "Vue Router", "Vuex", "Chart.js", "View UI", "SASS", "PHP", "MySQL"],
+        "此專案是我參與的培訓課程團體專題，也是我首次擔任團隊組長。專案前端選用了 Vue 作為開發框架，後端則使用 PHP 和 MySQL。在專案中，每位組員負責設計與開發自己專案的頁面，並撰寫對應的 API 以進行資料庫操作。這也是我們團隊首次使用 Git 進行版本管理，並透過 GitHub 來協作與管理代碼。由於大家對 Git 不熟悉，經常發生操作錯誤，但通過學習和互相協助，我們最終克服了這些挑戰，使開發進度逐漸步入正軌。",
+      technologies: ["JavaScript", "Vue", "Vue Router", "Vuex", "Chart.js", "View UI", "Sass", "PHP", "MySQL"],
       links: [
         {
           type: "網站連結",
@@ -368,7 +365,7 @@ export const DATA = {
       dates: "October 2022 - November 2022",
       active: false,
       description:
-        "這個網站是我在學習 HTML、CSS 和 JavaScript 後，人生中親手打造的第一個網站，同時也是培訓班的個人專題。從構思網站架構與目標受眾，到制定設計規範、設計 Wireframe 和 Mockup，再到網站開發，整個過程全由我一手完成。這段期間雖然充滿挑戰，但我瘋狂汲取了大量知識與經驗，最終成功完成了一個完整的網站，並榮獲「最佳網站」第三名及「介面設計」第三名的佳績。",
+        "這個網站是我在學習 HTML、CSS 和 JavaScript 後，人生中親手打造的第一個網站，同時也是培訓班的個人專題。從構思網站架構，到制定設計規範、設計 Wireframe 和 Mockup，再到網站開發，整個過程全由我一手完成。這段期間雖然充滿挑戰，但我瘋狂汲取了大量知識與經驗，最終成功完成了一個完整的網站，並榮獲「最佳網站」第三名及「介面設計」第三名的佳績。",
       technologies: ["HTML", "CSS", "JavaScript", "Owl Carousel", "Slick"],
       links: [
         {
@@ -412,7 +409,7 @@ export const DATA = {
       dates: "December 13th, 2023",
       location: "Taichung, Taiwan",
       description:
-        "這份簡報源自於希望幫助新人快速掌握 Vitest 的契機，並進一步為團隊建立紮實的測試基礎。內容從零開始，系統性地介紹 Vitest 的基礎安裝與設定、核心功能，以及實際測試案例的撰寫步驟，並輔以清晰的範例與操作說明。我希望透過這份講義，不僅能降低學習門檻，還能有效提升團隊的測試開發效率與代碼質量。",
+        "這份簡報源自於希望幫助新人快速掌握 Vitest 的契機，並進一步為團隊建立紮實的測試基礎。內容從零開始，系統性地介紹 Vitest 的基礎安裝與設定、核心功能，以及實際測試案例的撰寫步驟，並輔以清晰的範例與操作說明。我希望透過這份講義，不僅能降低學習門檻，還能有效提升團隊的測試開發效率與程式碼品質。",
       image: "/gamma.webp",
       links: [
         {
