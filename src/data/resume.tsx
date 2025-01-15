@@ -67,7 +67,7 @@ export const DATA = {
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "www.linkedin.com/in/熊伯祥",
+        url: "https://www.linkedin.com/in/%E7%86%8A%E4%BC%AF%E7%A5%A5/",
         icon: Icons.linkedin,
 
         navbar: true,
@@ -92,7 +92,8 @@ export const DATA = {
       logoUrl: "/autoaiot.svg",
       start: "January 2024",
       end: "Now",
-      description: "負責前端開發、互動系統實作、後台管理系統建構，並參與商業活動遊戲開發、醫療機構分析平台建置。",
+      description:
+        "運用技能：TypeScript、Vue3、Nuxt3、React、Tailwind CSS、Sass。<br/>工作內容：前端頁面搭建、既有網站維護、程式碼重構、效能最佳化、操作系統開發、互動遊戲開發、技術文件撰寫、前端技術研究、SEO 設置。<br/>參與專案：技職大玩JOB（官網維護、互動遊戲開發）、可口可樂互動專案（闖關與抽獎系統開發）、三軍總醫院運動醫學中心（智慧戰情室分析系統開發）。",
     },
     {
       company: "脈動心聯股份有限公司",
@@ -103,7 +104,8 @@ export const DATA = {
       logoUrl: "/mindnodeair.svg",
       start: "April 2023",
       end: "January 2024",
-      description: "負責平台系統開發、網站維運、遊戲製作，並參與場域監控系統建置、互動展覽實作、電子報開發。",
+      description:
+        "運用技能：JavaScript、TypeScript、Vue3、Sass。<br/>工作內容：前端頁面搭建、既有網站維護、程式碼重構、後台系統開發、互動遊戲開發、前端技術研究、SEO 設置。<br/>參與專案：技職大玩JOB（官網維護、後台系統開發、互動遊戲開發與重構）、台灣國際人工智慧暨物聯網展（互動遊戲開發）、公司內部專案（官網重構與 SEO 設置、場域監控系統開發）。",
     },
     {
       company: "ProLINK International Translation Service Limited",
@@ -114,7 +116,8 @@ export const DATA = {
       logoUrl: "/prolink.svg",
       start: "December 2021",
       end: "April 2022",
-      description: "負責文件翻譯、編輯、排版、校對及文案撰寫，並參與專案管理與多媒體製作。",
+      description:
+        "運用工具：Photoshop、Illustrator、InDesign。<br/>工作內容：文件翻譯（中、英、德文）、編輯、排版、校對、謄寫、文案寫作。<br/>參與專案：相關在職家庭津貼辦事處（外語計畫簡介及宣傳海報）、香港衛生署衛生防衛中心（疫苗接種外語宣傳影片）、香港品牌刊物（聯繫．香港2021-22）。",
     },
   ],
   education: [

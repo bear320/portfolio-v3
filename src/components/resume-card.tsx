@@ -31,6 +31,8 @@ export const ResumeCard = ({
 }: ResumeCardProps) => {
   const [isExpanded, setIsExpanded] = React.useState(false);
 
+  const descriptionArray = description?.split("<br/>");
+
   const handleClick = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
     if (description) {
       e.preventDefault();
@@ -86,7 +88,19 @@ export const ResumeCard = ({
               }}
               className="mt-2 text-xs sm:text-sm"
             >
-              {description}
+              {/* {description} */}
+              <ul className="list-disc pl-4 space-y-2">
+                {descriptionArray?.map((item, index) => {
+                  // 分離標題和內容
+                  const [title, content] = item.split("：");
+                  return (
+                    <li key={index}>
+                      <span className="font-medium">{title}：</span>
+                      {content}
+                    </li>
+                  );
+                })}
+              </ul>
             </motion.div>
           )}
         </div>
