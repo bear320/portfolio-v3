@@ -147,9 +147,73 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "Awwwards Winning Clone - 學習成果",
+      href: "https://awwwards-clone.netlify.app/",
+      dates: "January 2025",
+      active: false,
+      description:
+        "在這個專案中，我參考了網路上的教學影片，逐步使用 React、Tailwind CSS 和 GSAP，重現了一個 Awwwards 獲獎網站。這個過程讓我深入學習如何運用 GSAP 實現流暢的滾動觸發動畫與內容進場效果，並且結合 Tailwind CSS 提升設計與開發的效率，確保網站在各種裝置上都能良好呈現。",
+      technologies: ["Typescript", "Vite", "React", "Tailwind CSS", "GSAP"],
+      links: [
+        {
+          type: "網站連結",
+          href: "https://awwwards-clone.netlify.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "/awwwards.mp4",
+    },
+    {
+      title: "算你好命 - 商圈活動互動遊戲",
+      href: "https://destiny-decoded.netlify.app/",
+      dates: "October 2024",
+      active: false,
+      description:
+        "這款算命小遊戲是為彰化縣打石巷形象商圈活動所設計，將塔羅牌與網路技術相結合，讓使用者隨時查詢當日運勢。作為我自學 React 後的首個實際專案，我使用 TypeScript 提高程式碼的可維護性，並藉由 Tailwind CSS 實現快速開發，整個開發週期約為一週。",
+      technologies: ["Typescript", "Vite", "React", "React Router", "Tailwind CSS"],
+      links: [
+        {
+          type: "網站連結",
+          href: "https://destiny-decoded.netlify.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "活動貼文",
+          href: "https://www.facebook.com/share/p/17XgukdHtf/",
+          icon: <Icons.newspaper className="size-3" />,
+        },
+      ],
+      image: "/destiny-decoded.svg",
+      video: "",
+    },
+    {
+      title: "三軍總醫院運動醫學中心 - 智慧戰情室",
+      href: "",
+      dates: "April 2024 - October 2024",
+      active: true,
+      description:
+        "此系統專為三軍總醫院運動醫學中心量身打造，透過 Web Socket 技術實現硬體設備資訊的即時接收，讓儀表板即時呈現患者位置、生理數據、設備使用狀況及當日報到情況等關鍵資訊。系統以 Axios 串接 API，讓醫療人員能便捷檢視患者醫療紀錄，並與硬體設備深度整合，支援遠端控制、即時查看復健影像及將影像投放至指定螢幕功能。",
+      technologies: ["Typescript", "Vite", "Vue", "Vue Router", "Pinia", "Socket.io", "Axios", "Naive UI", "Sass"],
+      links: [
+        {
+          type: " ",
+          href: "https://gamma.app/docs/-c1s8mlc992ts08r",
+          icon: <Icons.document className="size-3" />,
+        },
+        {
+          type: "新聞報導",
+          href: "https://www.cna.com.tw/news/ahel/202412170295.aspx",
+          icon: <Icons.newspaper className="size-3" />,
+        },
+      ],
+      image: "/war-room.webp",
+      video: "",
+    },
+    {
       title: "奧圖數位互動科技有限公司 - 官方網站",
       href: "https://auto-aiot.com/",
-      dates: "January 2024 - Now",
+      dates: "January 2024 - February 2024",
       active: true,
       description:
         "此專案為期兩個月，旨在打造公司的官方網站，採用當時新推出的 Nuxt 3 作為核心框架，以實現卓越的 SEO 表現。由於專案無後端支援，遂採用 Nuxt Content 作為內容管理工具，並針對 Markdown 文件進行樣式調整與專屬組件開發，以達到高度客製化的文章展示效果。網站樣式採用 Sass 定義，結合 RWD 設計，確保跨裝置的良好使用體驗，並透過整合 AOS 提升視覺動態效果。SEO 設定涵蓋關鍵字、描述及圖片等，並運用 Nuxt SEO 進一步強化搜尋引擎優化，打造高效能且精緻的官方網站。",
@@ -200,7 +264,7 @@ export const DATA = {
     {
       title: "技職大玩JOB - 梅克獅養成遊戲",
       href: "https://www.twmakers.com.tw/web/game/game_mex.jsp#gameInId",
-      dates: "April 2023 - Now",
+      dates: "2023 - 2024",
       active: true,
       description:
         "當我接手該專案時，技術債已經累積至難以輕易解決的程度，各組件間高度耦合，任何改動都牽一髮而動全身，導致維運成本遠超過重構成本。為了解決這些問題，我與設計師密切合作，花了四到五個月的時間，對整個遊戲的介面設計與功能進行全面改版，不僅提升了系統的穩定性與可維護性，還引入了全新職業、新增圖鑑功能以及公告功能，讓遊戲內容更加多樣化。同時，我們開放了更多獅子的飼養選項，增強了玩家的選擇空間和遊戲的深度，目前遊戲已吸引了 2,145 位玩家參與並持續增長。",
@@ -218,7 +282,7 @@ export const DATA = {
     {
       title: "技職大玩JOB - 互動體驗遊戲",
       href: "https://www.twmakers.com.tw/web/game/game.jsp#gameId",
-      dates: "April 2023 - Now",
+      dates: "2023 - 2024",
       active: true,
       description:
         "在接手專案的兩年間，我開發了六款新遊戲，包括「經營大亨」、「魔法寶石大冒險」、「快門冒險」、「夢畫奇緣」、「菜鳥出任務」及「自給自足大冒險」，遊戲內容多元且富挑戰性。初期使用 Vue 開發，後來自學 React 並成功應用於後續開發，這不僅提升了我的技術能力，還促使我思考並解決開發中的各種挑戰。至今，這六款遊戲已累積超過 7,400 次遊玩，為專案帶來了良好的成效與用戶參與度。",
@@ -261,7 +325,7 @@ export const DATA = {
     {
       title: "技職大玩JOB - 後台管理系統",
       href: "",
-      dates: "April 2023 - Now",
+      dates: "2023 - 2024",
       active: true,
       description:
         "此專案主要用於控管網站前台系統並提供數據分析及內容管理功能，主要功能包括：技職大玩 JOB 網站數據分析、Google Analytics 數據展示、電子報及寄送群組管理（CRUD 操作）、梅克獅公告及背景管理（CRUD 操作）及帳號管理。資料視覺化方面，使用 ECharts 來呈現各項數據；而電子報與梅克獅公告則透過 Quill 富文本編輯器進行內容管理。",
@@ -285,52 +349,6 @@ export const DATA = {
         },
       ],
       image: "/twmakers-admin.webp",
-      video: "",
-    },
-    {
-      title: "三軍總醫院運動醫學中心 - 智慧戰情室",
-      href: "",
-      dates: "April 2024 - October 2024",
-      active: true,
-      description:
-        "此系統專為三軍總醫院運動醫學中心量身打造，透過 Web Socket 技術實現硬體設備資訊的即時接收，讓儀表板即時呈現患者位置、生理數據、設備使用狀況及當日報到情況等關鍵資訊。系統以 Axios 串接 API，讓醫療人員能便捷檢視患者醫療紀錄，並與硬體設備深度整合，支援遠端控制、即時查看復健影像及將影像投放至指定螢幕功能。",
-      technologies: ["Typescript", "Vite", "Vue", "Vue Router", "Pinia", "Socket.io", "Axios", "Naive UI", "Sass"],
-      links: [
-        {
-          type: " ",
-          href: "https://gamma.app/docs/-c1s8mlc992ts08r",
-          icon: <Icons.document className="size-3" />,
-        },
-        {
-          type: "新聞報導",
-          href: "https://www.cna.com.tw/news/ahel/202412170295.aspx",
-          icon: <Icons.newspaper className="size-3" />,
-        },
-      ],
-      image: "/war-room.webp",
-      video: "",
-    },
-    {
-      title: "算你好命 - 商圈活動互動遊戲",
-      href: "https://destiny-decoded.netlify.app/",
-      dates: "October 2024",
-      active: false,
-      description:
-        "這款算命小遊戲是為彰化縣打石巷形象商圈活動所設計，將塔羅牌與網路技術相結合，讓使用者隨時查詢當日運勢。作為我自學 React 後的首個實際專案，我使用 TypeScript 提高程式碼的可維護性，並藉由 Tailwind CSS 實現快速開發，整個開發週期約為一週。",
-      technologies: ["Typescript", "Vite", "React", "React Router", "Tailwind CSS"],
-      links: [
-        {
-          type: "網站連結",
-          href: "https://destiny-decoded.netlify.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "活動貼文",
-          href: "https://www.facebook.com/share/p/17XgukdHtf/",
-          icon: <Icons.newspaper className="size-3" />,
-        },
-      ],
-      image: "/destiny-decoded.svg",
       video: "",
     },
     {
