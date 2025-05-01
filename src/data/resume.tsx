@@ -51,7 +51,7 @@ export const DATA = {
       label: "履歷",
     },
     // { href: "/", icon: HomeIcon, label: "Home" },
-    // { href: "/blog", icon: NotebookIcon, label: "Blog" },
+    // { href: "/blog", icon: Icons.blog, label: "Blog" },
   ],
   contact: {
     email: "aaabear320@gmail.com",
@@ -80,7 +80,6 @@ export const DATA = {
       },
     },
   },
-
   work: [
     {
       company: "奧圖數位互動科技有限公司",
@@ -410,11 +409,41 @@ export const DATA = {
   ],
   techSharing: [
     {
+      title: "前端開發筆記：View Transition",
+      dates: "April 5th, 2025",
+      location: "Taichung, Taiwan",
+      description:
+        "因應專案需求及對提升使用者體驗的關注，我開始研究 View Transition API —— 一項用於優化 DOM 狀態變更與頁面切換視覺效果的嶄新技術。過去在探索 Scroll-driven Animation 的過程中，我意識到現有的動畫手法雖能強化互動性，但對於非滾動行為的畫面轉換仍存在明顯斷層。View Transition API 則提供了更優雅的解法，無論在單頁應用 (SPA) 或多頁應用 (MPA) 中，都能實現更加連貫自然的轉場效果。本篇文章整理了我對此技術的研究過程與實作心得，期望能為有志於打造流暢網頁體驗的開發者提供具體參考。",
+      image: "/medium.svg",
+      links: [
+        {
+          title: "文章連結",
+          icon: <Icons.medium className="h-4 w-4" />,
+          href: "https://medium.com/@aaabear320/前端開發筆記-view-transition-a7be10665cd0",
+        },
+      ],
+    },
+    {
+      title: "前端開發筆記：網站無障礙規範",
+      dates: "March 30th, 2025",
+      location: "Taichung, Taiwan",
+      description:
+        "近期因應工作專案需求，我開始研究網站無障礙相關規範，然而發現網路上的多數資料多聚焦於基本概念與設計原則，對於時間有限的情況下，難以全面掌握所有知識。為了更有效率地達成專案目標，我選擇從網站無障礙認證的檢驗標準——《網站無障礙規範》著手研究。畢竟推動網站無障礙的核心目的即在於通過認證，從實際規範出發，能更清楚掌握需要符合的條件與實作重點。為此，我投入大量時間深入研究，並將所學內容整理為筆記與技術文章，不僅於公司內部進行分享與交流，也公開提供給有相關需求的開發者，期望協助更多人更快掌握重點、順利取得網站無障礙認證。",
+      image: "/medium.svg",
+      links: [
+        {
+          title: "文章連結",
+          icon: <Icons.medium className="h-4 w-4" />,
+          href: "https://medium.com/@aaabear320/前端開發筆記-網站無障礙規範-9be7e0abc765",
+        },
+      ],
+    },
+    {
       title: "前端開發筆記：Scroll-driven Animations",
       dates: "December 14th, 2023",
       location: "Taichung, Taiwan",
       description:
-        "這篇文章是我為公司內部技術分享撰寫的，主題是介紹當時剛推出的 CSS 滾動式動畫技術 Scroll-driven Animation。以往類似效果通常需要透過 JavaScript 和工具如 GSAP 實現，但由於我尚未熟悉 GSAP，便尋找純 CSS 的解決方案，並發現了這項新技術。由於中文教學資源少，我查閱原文資料並在 Medium 上撰寫技術文章，與更多開發者分享。這篇文章在 Medium 上累積了 1.4K views、886 reads 和 86 applaud，並選擇這個主題作為內部分享會的內容，讓更多人了解並應用這項技術。",
+        "這篇文章是我為公司內部技術分享所撰寫，主題介紹當時剛推出的 CSS 滾動式動畫技術 —— Scroll-driven Animation。以往實作類似效果通常需透過 JavaScript 搭配工具（如 GSAP），但由於我當時尚未熟悉 GSAP，便開始尋找純 CSS 的解法，進而發現這項新技術。由於中文教學資源相對稀少，我參考原文資料並在 Medium 撰寫成文，期望與更多開發者交流分享。文章在 Medium 上累積超過 2K 瀏覽次數 (Views)、1.2K 完整閱讀次數 (Reads) 及 120 次拍手 (Claps)，也因此選定此主題作為內部分享會內容，讓更多同仁認識並應用這項技術。",
       image: "/medium.svg",
       links: [
         {
