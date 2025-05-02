@@ -45,13 +45,13 @@ export const DATA = {
     "Figma",
   ],
   navbar: [
+    // { href: "/", icon: Icons.home, label: "Home" },
+    // { href: "/blog", icon: Icons.blog, label: "Blog" },
     {
       href: "https://drive.google.com/file/d/1rlC4dUzS7jXXA0C0Ll0ZLtPQPUNzb5dN/view?usp=drive_link",
       icon: Icons.resume,
       label: "履歷",
     },
-    // { href: "/", icon: HomeIcon, label: "Home" },
-    // { href: "/blog", icon: Icons.blog, label: "Blog" },
   ],
   contact: {
     email: "aaabear320@gmail.com",
