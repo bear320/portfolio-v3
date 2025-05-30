@@ -39,7 +39,7 @@ export const DATA = {
     "MongoDB",
     "Mongoose",
     "RESTful API",
-    "Socket.io",
+    "Socket.IO",
     "Git",
     "Docker",
     "Figma",
@@ -82,28 +82,16 @@ export const DATA = {
   },
   work: [
     {
-      company: "奧圖數位互動科技有限公司",
+      company: "奧圖數位互動科技有限公司 / 脈動心聯股份有限公司 (關係企業)",
       href: "https://www.auto-aiot.com/",
       badges: [],
       location: "Taichung, Taiwan",
-      title: "前端工程師 (Vue.js)",
+      title: "前端工程師 Frontend Developer (Vue.js)",
       logoUrl: "/autoaiot.svg",
-      start: "January 2024",
+      start: "Apr 2023",
       end: "Now",
       description:
-        "運用技能：TypeScript、Vue3、Nuxt3、React、Tailwind CSS、Sass。<br/>工作內容：前端頁面搭建、既有網站維護、串接 API、程式碼重構、操作系統開發、互動遊戲開發、技術文件撰寫、前端技術研究、SEO 設置。<br/>參與專案：技職大玩JOB（官網維護、互動遊戲開發）、可口可樂互動專案（闖關與抽獎系統開發）、三軍總醫院運動醫學中心（智慧戰情室分析系統開發）。",
-    },
-    {
-      company: "脈動心聯股份有限公司",
-      href: "https://www.mindnodeair.com/",
-      badges: [],
-      location: "Taichung, Taiwan",
-      title: "前端工程師 (Vue.js)",
-      logoUrl: "/mindnodeair.svg",
-      start: "April 2023",
-      end: "January 2024",
-      description:
-        "運用技能：JavaScript、TypeScript、Vue3、Sass。<br/>工作內容：前端頁面搭建、既有網站維護、串接 API、程式碼重構、後台系統開發、互動遊戲開發、前端技術研究、SEO 設置。<br/>參與專案：技職大玩JOB（官網維護、後台系統開發、互動遊戲開發與重構）、台灣國際人工智慧暨物聯網展（互動遊戲開發）、公司內部專案（官網重構與 SEO 設置、場域監控系統開發）。",
+        "運用技能：JavaScript、TypeScript、Vue3、Nuxt3、React、Tailwind CSS、Sass。<br/>工作內容：前端頁面搭建、既有網站維護、串接 API、程式碼重構、後台與操作系統開發、互動遊戲開發、技術文件撰寫、前端技術研究、SEO 設置。<br/>參與專案：技職大玩JOB（官網維護、後台系統開發、互動遊戲開發與重構）、可口可樂互動專案（闖關與抽獎系統開發）、三軍總醫院運動醫學中心（智慧戰情室分析系統開發）、台灣國際人工智慧暨物聯網展（互動遊戲開發）、公司內部專案（官網重構與 SEO 設置、場域監控系統開發）。",
     },
     {
       company: "ProLINK International Translation Service Limited",
@@ -112,8 +100,8 @@ export const DATA = {
       location: "Taichung, Taiwan",
       title: "Project Coordinator",
       logoUrl: "/prolink.svg",
-      start: "December 2021",
-      end: "April 2022",
+      start: "Dec 2021",
+      end: "Apr 2022",
       description:
         "運用工具：Photoshop、Illustrator、InDesign。<br/>工作內容：文件翻譯（中、英、德文）、編輯、排版、校對、謄寫、文案寫作。<br/>參與專案：在職家庭津貼辦事處（外語計畫簡介及宣傳海報）、香港衛生署衛生防衛中心（疫苗接種外語宣傳影片）、香港品牌刊物（聯繫．香港2021-22）。",
     },
@@ -124,53 +112,98 @@ export const DATA = {
       href: "https://www.tibame.com/goodjob/frontend/location/JungliCenter",
       degree: "前端工程師專業技術養成班中壢第79期",
       logoUrl: "/TibaMe.svg",
-      start: "August 2022",
-      end: "January 2023",
+      start: "Aug 2022",
+      end: "Jan 2023",
     },
     {
       school: "國立高雄科技大學",
       href: "https://ifad.nkust.edu.tw/",
       degree: "應用德語系",
       logoUrl: "NKUST.svg",
-      start: "September 2016",
-      end: "June 2020",
+      start: "Sep 2016",
+      end: "Jun 2020",
     },
     {
       school: "國立中科實驗高級中學",
       href: "https://www.nehs.tc.edu.tw/",
       degree: "普通科",
       logoUrl: "/NEHS@CTSP.svg",
-      start: "September 2013",
-      end: "June 2016",
+      start: "Sep 2013",
+      end: "Jun 2016",
     },
   ],
   projects: [
     {
-      title: "Awwwards Winning Clone - 學習成果",
-      href: "https://awwwards-clone.netlify.app/",
-      dates: "January 2025",
-      active: false,
+      title: "臺灣戲曲中心 - 觀眾服務網",
+      href: "",
+      dates: "Oct 2024 - May 2025",
       description:
-        "在這個專案中，我參考了網路上的教學影片，逐步使用 React、Tailwind CSS 和 GSAP，重現了一個 Awwwards 獲獎網站。這個過程讓我深入學習如何運用 GSAP 實現流暢的滾動觸發動畫與內容進場效果，並且結合 Tailwind CSS 提升設計與開發的效率，確保網站在各種裝置上都能良好呈現。",
-      technologies: ["Typescript", "Vite", "React", "Tailwind CSS", "GSAP"],
+        "本專案為臺灣戲曲中心建置的即時廁所看板系統，整合 IoT 硬體設備，提供場館內各樓層洗手間與無障礙設施的使用狀態與人流資訊。使用者可透過安裝於現場的顯示螢幕，即時掌握當前廁所的排隊情況與設備使用狀況。前端介面以 Vue 開發，顯示內容包含場館名稱、天氣、目前時間、廁所位置地圖與設備狀態，並透過色彩標示提升視覺辨識效率。前端實作負責接收後端透過 Socket.IO 傳輸的即時資料，並建置狀態監聽與畫面自動更新機制，確保資訊呈現即時、穩定且直觀，強化整體使用體驗與現場導引效率。",
+      technologies: [
+        "Typescript",
+        "Vite",
+        "Vue",
+        "Vue Router",
+        "Vue I18n",
+        "Vue 3 Carousel",
+        "Pinia",
+        "Axios",
+        "Socket.IO",
+        "TanStack Query",
+        "Sass",
+      ],
+      links: [
+        {
+          type: "系統文件",
+          href: "https://gamma.app/docs/-q7z5fcrn8z3ghuu",
+          icon: <Icons.document className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "/restroom-kanban.mp4",
+    },
+    {
+      title: "臺灣戲曲中心 - 觀眾服務網",
+      href: "https://audienceservice.ncfta.gov.tw/",
+      dates: "Oct 2024 - May 2025",
+      description:
+        "本專案為臺灣戲曲中心打造的觀眾服務網，透過整合式網頁系統，提供場館導引、空氣品質監測、緊急事件指引、服務資訊、問卷回饋與洗手間使用狀況等功能，協助現場觀眾即時掌握所需資訊。系統支援雙語介面、主題切換與字級調整，並搭配視覺化圖表與互動式操作介面，強化使用者體驗與資訊可及性。其中洗手間使用狀況與人流資訊結合 IoT 感測設備，並透過 Socket.IO 實現即時資料更新與畫面同步，提供即時性與準確度兼具的互動服務，整體系統兼具實用性、易用性與現場應用彈性。",
+      technologies: [
+        "Typescript",
+        "Vite",
+        "Vue",
+        "Vue Router",
+        "Vue I18n",
+        "Vue 3 Carousel",
+        "Pinia",
+        "Axios",
+        "Socket.IO",
+        "TanStack Query",
+        "Sass",
+      ],
       links: [
         {
           type: "網站連結",
-          href: "https://awwwards-clone.netlify.app/",
+          href: "https://audienceservice.ncfta.gov.tw/",
           icon: <Icons.globe className="size-3" />,
         },
       ],
       image: "",
-      video: "/awwwards.mp4",
+      video: "/audience-service.mp4",
     },
     {
       title: "算你好命 - 商圈活動互動遊戲",
       href: "https://destiny-decoded.netlify.app/",
-      dates: "October 2024",
-      active: false,
+      dates: "Oct 2024",
       description:
-        "這款算命小遊戲是為彰化縣打石巷形象商圈活動所設計，將塔羅牌與網路技術相結合，讓使用者隨時查詢當日運勢。作為我自學 React 後的首個實際專案，我使用 TypeScript 提高程式碼的可維護性，並藉由 Tailwind CSS 實現快速開發，整個開發週期約為一週。",
-      technologies: ["Typescript", "Vite", "React", "React Router", "Tailwind CSS"],
+        "本專案為彰化縣打石巷形象商圈活動所設計的互動式算命小遊戲，結合塔羅牌元素與網頁技術，使用者可透過網站即時查詢當日運勢。本專案為自學 React 後的首個實作作品，開發時採用 TypeScript 以提升程式碼可讀性與可維護性，並運用 Tailwind CSS 加速 UI 開發流程。整體開發週期約為一週，完成具備簡易互動體驗與主題風格一致的前端應用。",
+      technologies: [
+        "Typescript",
+        "Vite",
+        "React",
+        "React Router",
+        "Tailwind CSS",
+      ],
       links: [
         {
           type: "網站連結",
@@ -189,14 +222,23 @@ export const DATA = {
     {
       title: "三軍總醫院運動醫學中心 - 智慧戰情室",
       href: "",
-      dates: "April 2024 - October 2024",
-      active: true,
+      dates: "Apr 2024 - Oct 2024",
       description:
-        "此系統專為三軍總醫院運動醫學中心量身打造，透過 Web Socket 技術實現硬體設備資訊的即時接收，讓儀表板即時呈現患者位置、生理數據、設備使用狀況及當日報到情況等關鍵資訊。系統以 Axios 串接 API，讓醫療人員能便捷檢視患者醫療紀錄，並與硬體設備深度整合，支援遠端控制、即時查看復健影像及將影像投放至指定螢幕功能。",
-      technologies: ["Typescript", "Vite", "Vue", "Vue Router", "Pinia", "Socket.io", "Axios", "Naive UI", "Sass"],
+        "本系統為三軍總醫院運動醫學中心量身開發，主要功能為即時整合與呈現現場硬體設備資訊。透過 WebSocket 技術，即時接收並更新儀表板上的場域地圖資訊，包括患者位置、生理數據、設備使用狀況與當日報到情形等。系統前端以 Axios 串接 API，提供醫療人員快速檢視患者醫療紀錄的介面，並與多項硬體設備進行深度整合，支援遠端操作控制、即時復健影像查看與影像投放至指定螢幕等功能。",
+      technologies: [
+        "Typescript",
+        "Vite",
+        "Vue",
+        "Vue Router",
+        "Pinia",
+        "Socket.IO",
+        "Axios",
+        "Naive UI",
+        "Sass",
+      ],
       links: [
         {
-          type: " ",
+          type: "系統文件",
           href: "https://gamma.app/docs/-c1s8mlc992ts08r",
           icon: <Icons.document className="size-3" />,
         },
@@ -212,10 +254,9 @@ export const DATA = {
     {
       title: "奧圖數位互動科技有限公司 - 官方網站",
       href: "https://auto-aiot.com/",
-      dates: "January 2024 - February 2024",
-      active: true,
+      dates: "Jan 2024 - Feb 2024",
       description:
-        "此專案為期兩個月，旨在打造公司的官方網站，採用當時新推出的 Nuxt 3 作為核心框架，以實現卓越的 SEO 表現。由於專案無後端支援，遂採用 Nuxt Content 作為內容管理工具，並針對 Markdown 文件進行樣式調整與專屬組件開發，以達到高度客製化的文章展示效果。網站樣式採用 Sass 定義，結合 RWD 設計，確保跨裝置的良好使用體驗，並透過整合 AOS 提升視覺動態效果。SEO 設定涵蓋關鍵字、描述及圖片等，並運用 Nuxt SEO 進一步強化搜尋引擎優化，打造高效能且精緻的官方網站。",
+        "本專案為期兩個月，目標為建置公司官方網站，選用當時新推出的 Nuxt 3 作為主要開發框架，以提升網站的 SEO 表現。考量專案未搭配後端服務，採用 Nuxt Content 作為靜態內容管理工具，並針對 Markdown 文件進行樣式自訂與開發專屬元件，以實現高度客製化的文章展示。網站樣式使用 Sass 撰寫，搭配 RWD 響應式設計以支援多裝置瀏覽，並整合 AOS 實現視覺動態效果。SEO 部分涵蓋標題、關鍵字、描述與社群分享圖等設定，並透過 Nuxt SEO 套件強化搜尋引擎優化，最終完成一個兼具效能與視覺品質的官方網站。",
       technologies: [
         "Typescript",
         "Vue",
@@ -245,11 +286,18 @@ export const DATA = {
     {
       title: "脈動心聯股份有限公司 - 官方網站",
       href: "https://www.mindnodeair.com/",
-      dates: "October 2023 - December 2023",
-      active: true,
+      dates: "Oct 2023 - Dec 2023",
       description:
-        "由於公司舊版官網的設計風格已顯過時且內容長期未更新，我負責重新開發全新官方網站。考量到對 Nuxt 框架尚不熟悉，我選擇使用 Vite Plugin SSR 實現伺服器端渲染 (SSR)，以提升網站效能，同時結合 Ranking 來持續改善與提升 SEO 排名。在專案中，我使用了 VueUse 來提升開發效率，並整合了 Vue 3 Carousel 和 Particles，分別實現圖片輪播效果與粒子動畫，讓網站的視覺效果更具吸引力與互動性。",
-      technologies: ["Typescript", "Vite", "Vue", "Vite Plugin SSR", "Vue 3 Carousel", "Particles", "Sass"],
+        "因應公司舊版官網設計風格過時且內容長期未更新，啟動新版官方網站的重新設計與開發。考量當時對 Nuxt 框架尚不熟悉，專案採用 Vite Plugin SSR 實現伺服器端渲染，以提升網站效能與載入速度，並結合 Ranking 工具進行 SEO 優化與持續改善。開發過程中運用了 VueUse 以提升開發效率，並整合 Vue 3 Carousel 與 Particles 分別實現圖片輪播與背景動畫效果，強化網站的視覺吸引力與互動體驗。",
+      technologies: [
+        "Typescript",
+        "Vite",
+        "Vue",
+        "Vite Plugin SSR",
+        "Vue 3 Carousel",
+        "Particles",
+        "Sass",
+      ],
       links: [
         {
           type: "網站連結",
@@ -264,10 +312,18 @@ export const DATA = {
       title: "技職大玩JOB - 梅克獅養成遊戲",
       href: "https://www.twmakers.com.tw/web/game/game_mex.jsp#gameInId",
       dates: "2023 - 2024",
-      active: true,
       description:
-        "當我接手該專案時，技術債已經累積至難以輕易解決的程度，各組件間高度耦合，任何改動都牽一髮而動全身，導致維運成本遠超過重構成本。為了解決這些問題，我與設計師密切合作，花了四到五個月的時間，對整個遊戲的介面設計與功能進行全面改版，不僅提升了系統的穩定性與可維護性，還引入了全新職業、新增圖鑑功能以及公告功能，讓遊戲內容更加多樣化。同時，我們開放了更多獅子的飼養選項，增強了玩家的選擇空間和遊戲的深度，目前遊戲已吸引了 2,145 位玩家參與並持續增長。",
-      technologies: ["Typescript", "Vite", "Vue", "Vue Router", "VueUse", "Pinia", "Axios", "Sass"],
+        "接手本專案時，系統存在大量技術債，元件間高度耦合，任何變動皆可能影響整體運作，導致維護成本高於重構成本。為改善此狀況，與設計團隊密切合作，進行為期約四至五個月的完整介面與功能重構，全面優化使用者體驗與程式結構，提升系統的穩定性與可維護性。重構期間同步擴充多項功能，包括新增多種職業類型、圖鑑功能與公告模組，並增加可飼養獅子的選項，強化遊戲的深度與玩家的操作彈性。截至目前，該遊戲已累積 2,423 位玩家參與，並持續穩定成長中。",
+      technologies: [
+        "Typescript",
+        "Vite",
+        "Vue",
+        "Vue Router",
+        "VueUse",
+        "Pinia",
+        "Axios",
+        "Sass",
+      ],
       links: [
         {
           type: "網站連結",
@@ -275,17 +331,26 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "/maker-lion.webp",
-      video: "",
+      image: "",
+      video: "/maker-lion.mp4",
     },
     {
       title: "技職大玩JOB - 互動體驗遊戲",
       href: "https://www.twmakers.com.tw/web/game/game.jsp#gameId",
       dates: "2023 - 2024",
-      active: true,
       description:
-        "在接手專案的兩年間，我開發了六款新遊戲，包括「經營大亨」、「魔法寶石大冒險」、「快門冒險」、「夢畫奇緣」、「菜鳥出任務」及「自給自足大冒險」，遊戲內容多元且富挑戰性。初期使用 Vue 開發，後來自學 React 並成功應用於後續開發，這不僅提升了我的技術能力，還促使我思考並解決開發中的各種挑戰。至今，這六款遊戲已累積超過 7,400 次遊玩，為專案帶來了良好的成效與用戶參與度。",
-      technologies: ["Typescript", "Vite", "Vue", "Vue Router", "VueUse", "Pinia", "Axios", "Sass"],
+        "在參與該專案的兩年間，負責開發共六款互動遊戲，分別為「經營大亨」、「魔法寶石大冒險」、「快門冒險」、「夢畫奇緣」、「菜鳥出任務」與「自給自足大冒險」，內容涵蓋益智、闖關、經營等多種類型。初期以 Vue 進行開發，後期導入 React 框架，並成功應用於後續遊戲製作中，提升前端開發效率與維護性。六款遊戲上線後累積總遊玩次數超過 9,500 次，提升了用戶互動率與專案整體成效。",
+      technologies: [
+        "Typescript",
+        "Vite",
+        "React",
+        "Vue",
+        "Vue Router",
+        "VueUse",
+        "Pinia",
+        "Axios",
+        "Sass",
+      ],
       links: [
         {
           type: "經營大亨",
@@ -325,9 +390,8 @@ export const DATA = {
       title: "技職大玩JOB - 後台管理系統",
       href: "",
       dates: "2023 - 2024",
-      active: true,
       description:
-        "此專案主要用於控管網站前台系統並提供數據分析及內容管理功能，主要功能包括：技職大玩 JOB 網站數據分析、Google Analytics 數據展示、電子報及寄送群組管理（CRUD 操作）、梅克獅公告及背景管理（CRUD 操作）及帳號管理。資料視覺化方面，使用 ECharts 來呈現各項數據；而電子報與梅克獅公告則透過 Quill 富文本編輯器進行內容管理。",
+        "本專案為一套後台系統，提供網站前台內容管理與數據分析功能。主要功能包含：技職大玩 JOB 網站流量數據分析、Google Analytics 數據視覺化展示、電子報及寄送群組管理（含 CRUD 操作）、梅克獅公告與背景管理（含 CRUD 操作）、以及帳號管理等。系統使用 ECharts 實作資料視覺化，並透過 Quill 富文本編輯器進行電子報與公告內容的編輯與管理。",
       technologies: [
         "Typescript",
         "Vite",
@@ -347,17 +411,26 @@ export const DATA = {
           icon: <Icons.document className="size-3" />,
         },
       ],
-      image: "/twmakers-admin.webp",
-      video: "",
+      image: "",
+      video: "/twmakers-admin.mp4",
     },
     {
       title: "KOALA+ - 團體專題",
       href: "https://tibamef2e.com/cgd103/g1/",
       dates: "November 2022 - January 2023",
-      active: false,
       description:
-        "此專案是我參與的培訓課程團體專題，也是我首次擔任團隊組長。專案前端選用了 Vue 作為開發框架，後端則使用 PHP 和 MySQL。在專案中，每位組員負責設計與開發自己專案的頁面，並撰寫對應的 API 以進行資料庫操作。這也是我們團隊首次使用 Git 進行版本管理，並透過 GitHub 來協作與管理代碼。由於大家對 Git 不熟悉，經常發生操作錯誤，但通過學習和互相協助，我們最終克服了這些挑戰，使開發進度逐漸步入正軌。",
-      technologies: ["JavaScript", "Vue", "Vue Router", "Vuex", "Chart.js", "View UI", "Sass", "PHP", "MySQL"],
+        "本專案為參與前端培訓課程期間的團體專題，並首次擔任團隊組長角色。前端採用 Vue 作為開發框架，後端使用 PHP 搭配 MySQL。團隊成員各自負責專案中特定頁面的設計與開發，並撰寫對應的 API 以與資料庫互動。專案期間首次導入 Git 進行版本控制，並透過 GitHub 進行協作與代碼管理。初期團隊對 Git 操作尚不熟悉，過程中遇到多次合併與操作問題，最終透過協作與學習逐步建立開發流程，順利完成專案。",
+      technologies: [
+        "JavaScript",
+        "Vue",
+        "Vue Router",
+        "Vuex",
+        "Chart.js",
+        "View UI",
+        "Sass",
+        "PHP",
+        "MySQL",
+      ],
       links: [
         {
           type: "網站連結",
@@ -382,9 +455,8 @@ export const DATA = {
       title: "GERCERY 德式選物店 - 個人專題",
       href: "https://bear320.github.io/GERCERY/",
       dates: "October 2022 - November 2022",
-      active: false,
       description:
-        "這個網站是我在學習 HTML、CSS 和 JavaScript 後，人生中親手打造的第一個網站，同時也是培訓班的個人專題。從構思網站架構，到制定設計規範、設計 Wireframe 和 Mockup，再到網站開發，整個過程全由我一手完成。這段期間雖然充滿挑戰，但我瘋狂汲取了大量知識與經驗，最終成功完成了一個完整的網站，並榮獲「最佳網站」第三名及「介面設計」第三名的佳績。",
+        "這個網站是於完成 HTML、CSS 與 JavaScript 基礎課程後所製作的第一個完整專案，同時作為前端培訓課程中的個人期末專題。專案內容涵蓋網站架構規劃、設計規範制定、Wireframe 與 Mockup 製作，以及網站開發等完整流程，均由本人獨立完成。在實作過程中，累積了大量實務經驗，並於結業成果發表中獲得「最佳網站」第三名及「介面設計」第三名的獎項肯定。",
       technologies: ["HTML", "CSS", "JavaScript", "Owl Carousel", "Slick"],
       links: [
         {
@@ -410,7 +482,7 @@ export const DATA = {
   techSharing: [
     {
       title: "前端開發筆記：View Transition",
-      dates: "April 5th, 2025",
+      dates: "Apr 5th, 2025",
       location: "Taichung, Taiwan",
       description:
         "因應專案需求及對提升使用者體驗的關注，我開始研究 View Transition API —— 一項用於優化 DOM 狀態變更與頁面切換視覺效果的嶄新技術。過去在探索 Scroll-driven Animation 的過程中，我意識到現有的動畫手法雖能強化互動性，但對於非滾動行為的畫面轉換仍存在明顯斷層。View Transition API 則提供了更優雅的解法，無論在單頁應用 (SPA) 或多頁應用 (MPA) 中，都能實現更加連貫自然的轉場效果。本篇文章整理了我對此技術的研究過程與實作心得，期望能為有志於打造流暢網頁體驗的開發者提供具體參考。",
@@ -425,7 +497,7 @@ export const DATA = {
     },
     {
       title: "前端開發筆記：網站無障礙規範",
-      dates: "March 30th, 2025",
+      dates: "Mar 30th, 2025",
       location: "Taichung, Taiwan",
       description:
         "近期因應工作專案需求，我開始研究網站無障礙相關規範，然而發現網路上的多數資料多聚焦於基本概念與設計原則，對於時間有限的情況下，難以全面掌握所有知識。為了更有效率地達成專案目標，我選擇從網站無障礙認證的檢驗標準——《網站無障礙規範》著手研究。畢竟推動網站無障礙的核心目的即在於通過認證，從實際規範出發，能更清楚掌握需要符合的條件與實作重點。為此，我投入大量時間深入研究，並將所學內容整理為筆記與技術文章，不僅於公司內部進行分享與交流，也公開提供給有相關需求的開發者，期望協助更多人更快掌握重點、順利取得網站無障礙認證。",
@@ -440,7 +512,7 @@ export const DATA = {
     },
     {
       title: "前端開發筆記：Scroll-driven Animations",
-      dates: "December 14th, 2023",
+      dates: "Dec 14th, 2023",
       location: "Taichung, Taiwan",
       description:
         "這篇文章是我為公司內部技術分享所撰寫，主題介紹當時剛推出的 CSS 滾動式動畫技術 —— Scroll-driven Animation。以往實作類似效果通常需透過 JavaScript 搭配工具（如 GSAP），但由於我當時尚未熟悉 GSAP，便開始尋找純 CSS 的解法，進而發現這項新技術。由於中文教學資源相對稀少，我參考原文資料並在 Medium 撰寫成文，期望與更多開發者交流分享。文章在 Medium 上累積超過 2K 瀏覽次數 (Views)、1.2K 完整閱讀次數 (Reads) 及 120 次拍手 (Claps)，也因此選定此主題作為內部分享會內容，讓更多同仁認識並應用這項技術。",
@@ -455,7 +527,7 @@ export const DATA = {
     },
     {
       title: "Learn Vitest from scratch",
-      dates: "December 13th, 2023",
+      dates: "Dec 13th, 2023",
       location: "Taichung, Taiwan",
       description:
         "這份簡報源自於希望幫助新人快速掌握 Vitest 的契機，並進一步為團隊建立紮實的測試基礎。內容從零開始，系統性地介紹 Vitest 的基礎安裝與設定、核心功能，以及實際測試案例的撰寫步驟，並輔以清晰的範例與操作說明。我希望透過這份講義，不僅能降低學習門檻，還能有效提升團隊的測試開發效率與程式碼品質。",
@@ -469,8 +541,9 @@ export const DATA = {
       ],
     },
     {
-      title: "前端開發筆記：Firebase + Github Actions 自動部署＆Github Actions Secrets",
-      dates: "June 25th, 2023",
+      title:
+        "前端開發筆記：Firebase + Github Actions 自動部署＆Github Actions Secrets",
+      dates: "Jun 25th, 2023",
       location: "Taichung, Taiwan",
       description:
         "這篇技術筆記分享了我在前端開發過程中，將個人 Side Project 自動部署至 Firebase 時遇到的實務經驗。文章詳細闡述了如何透過 Github Action Secrets 安全管理敏感資訊，從建立 Secrets 到在 Workflows 中的具體應用步驟，一應俱全。身為開發者，我希望這份經驗分享能為同樣使用 Firebase 和 Github Actions 進行前端專案自動部署的夥伴們，提供一個實用的參考指南。",
