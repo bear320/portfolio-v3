@@ -3,9 +3,9 @@ import { Icons } from "@/components/icons";
 export const DATA = {
   name: "熊伯祥",
   initials: "DV",
-  url: "https://dillion.io",
+  url: "https://oliver-xiong-portfolio.vercel.app/",
   location: "Taichung, Taiwan 🇹🇼",
-  locationLink: "https://www.google.com/maps/place/sanfrancisco",
+  locationLink: "https://www.google.com/maps/place/taichung",
   description:
     "從翻譯產業跨界成為前端工程師，致力於打造擁有優秀使用者體驗與美感的網站與應用程式，熱愛技術 💻 與設計 🎨 的完美結合！",
   summary:
