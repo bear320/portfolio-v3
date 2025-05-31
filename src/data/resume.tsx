@@ -91,14 +91,14 @@ export const DATA = {
       start: "Apr 2023",
       end: "Now",
       description:
-        "運用技能：JavaScript、TypeScript、Vue3、Nuxt3、React、Tailwind CSS、Sass。<br/>工作內容：前端頁面搭建、既有網站維護、串接 API、程式碼重構、後台與操作系統開發、互動遊戲開發、技術文件撰寫、前端技術研究、SEO 設置。<br/>參與專案：台灣戲曲中心（觀眾服務網、）、技職大玩JOB（官網維護、後台系統開發、互動遊戲開發與重構）、可口可樂互動專案（闖關與抽獎系統開發）、三軍總醫院運動醫學中心（智慧戰情室分析系統開發）、台灣國際人工智慧暨物聯網展（互動遊戲開發）、公司內部專案（官網重構與 SEO 設置、場域監控系統開發）。",
+        "運用技能：JavaScript、TypeScript、Vue3、Nuxt3、React、Tailwind CSS、Sass。<br/>工作內容：前端頁面搭建、既有網站維護、串接 API、程式碼重構、後台與操作系統開發、互動遊戲開發、技術文件撰寫、前端技術研究、SEO 設置。<br/>參與專案：台灣戲曲中心（觀眾服務網、洗手間看板系統）、技職大玩JOB（官網維護、後台系統開發、互動遊戲開發與重構）、可口可樂互動專案（闖關與抽獎系統開發）、三軍總醫院運動醫學中心（智慧戰情室分析系統開發）、台灣國際人工智慧暨物聯網展（互動遊戲開發）、公司內部專案（官網重構與 SEO 設置、場域監控系統開發）。",
     },
     {
       company: "ProLINK International Translation Service Limited",
       href: "https://prolinktranslation.com/index.php?lang=zho",
       badges: [],
       location: "Taichung, Taiwan",
-      title: "Project Coordinator",
+      title: "項目協調員 Project Coordinator",
       logoUrl: "/prolink.svg",
       start: "Dec 2021",
       end: "Apr 2022",
