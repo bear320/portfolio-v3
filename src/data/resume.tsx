@@ -134,35 +134,6 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "臺灣戲曲中心 - 洗手間看板系統",
-      href: "",
-      dates: "Oct 2024 - May 2025",
-      description:
-        "本專案為臺灣戲曲中心建置的即時廁所看板系統，整合 IoT 硬體設備，提供場館內各樓層洗手間與無障礙設施的使用狀態與人流資訊。使用者可透過安裝於現場的顯示螢幕，即時掌握當前廁所的排隊情況與設備使用狀況。前端介面以 Vue 開發，顯示內容包含場館名稱、天氣、目前時間、廁所位置地圖與設備狀態，並透過色彩標示提升視覺辨識效率。前端實作負責接收後端透過 Socket.IO 傳輸的即時資料，並建置狀態監聽與畫面自動更新機制，確保資訊呈現即時、穩定且直觀，強化整體使用體驗與現場導引效率。",
-      technologies: [
-        "Typescript",
-        "Vite",
-        "Vue",
-        "Vue Router",
-        "Vue I18n",
-        "Vue 3 Carousel",
-        "Pinia",
-        "Axios",
-        "Socket.IO",
-        "TanStack Query",
-        "Sass",
-      ],
-      links: [
-        {
-          type: "系統文件",
-          href: "https://gamma.app/docs/-q7z5fcrn8z3ghuu",
-          icon: <Icons.document className="size-3" />,
-        },
-      ],
-      image: "",
-      video: "/restroom-kanban.mp4",
-    },
-    {
       title: "臺灣戲曲中心 - 觀眾服務網",
       href: "https://audienceservice.ncfta.gov.tw/",
       dates: "Oct 2024 - May 2025",
@@ -190,6 +161,35 @@ export const DATA = {
       ],
       image: "",
       video: "/audience-service.mp4",
+    },
+    {
+      title: "臺灣戲曲中心 - 洗手間看板系統",
+      href: "",
+      dates: "Oct 2024 - May 2025",
+      description:
+        "本專案為臺灣戲曲中心建置的即時廁所看板系統，整合 IoT 硬體設備，提供場館內各樓層洗手間與無障礙設施的使用狀態與人流資訊。使用者可透過安裝於現場的顯示螢幕，即時掌握當前廁所的排隊情況與設備使用狀況。前端介面以 Vue 開發，顯示內容包含場館名稱、天氣、目前時間、廁所位置地圖與設備狀態，並透過色彩標示提升視覺辨識效率。前端實作負責接收後端透過 Socket.IO 傳輸的即時資料，並建置狀態監聽與畫面自動更新機制，確保資訊呈現即時、穩定且直觀，強化整體使用體驗與現場導引效率。",
+      technologies: [
+        "Typescript",
+        "Vite",
+        "Vue",
+        "Vue Router",
+        "Vue I18n",
+        "Vue 3 Carousel",
+        "Pinia",
+        "Axios",
+        "Socket.IO",
+        "TanStack Query",
+        "Sass",
+      ],
+      links: [
+        {
+          type: "系統文件",
+          href: "https://gamma.app/docs/-q7z5fcrn8z3ghuu",
+          icon: <Icons.document className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "/restroom-kanban.mp4",
     },
     {
       title: "算你好命 - 商圈活動互動遊戲",
@@ -485,7 +485,7 @@ export const DATA = {
       dates: "Apr 5th, 2025",
       location: "Taichung, Taiwan",
       description:
-        "因應專案需求及對提升使用者體驗的關注，我開始研究 View Transition API —— 一項用於優化 DOM 狀態變更與頁面切換視覺效果的嶄新技術。過去在探索 Scroll-driven Animation 的過程中，我意識到現有的動畫手法雖能強化互動性，但對於非滾動行為的畫面轉換仍存在明顯斷層。View Transition API 則提供了更優雅的解法，無論在單頁應用 (SPA) 或多頁應用 (MPA) 中，都能實現更加連貫自然的轉場效果。本篇文章整理了我對此技術的研究過程與實作心得，期望能為有志於打造流暢網頁體驗的開發者提供具體參考。",
+        "介紹 View Transition API——一項優化 DOM 狀態變更與頁面切換視覺效果的嶄新技術。文章比較此技術與過往常見動畫手法的差異，並示範其在單頁應用 (SPA) 與多頁應用 (MPA) 中的實際應用，適合關注使用者體驗與前端互動設計的開發者參考。",
       image: "/medium.svg",
       links: [
         {
@@ -500,7 +500,7 @@ export const DATA = {
       dates: "Mar 30th, 2025",
       location: "Taichung, Taiwan",
       description:
-        "近期因應工作專案需求，我開始研究網站無障礙相關規範，然而發現網路上的多數資料多聚焦於基本概念與設計原則，對於時間有限的情況下，難以全面掌握所有知識。為了更有效率地達成專案目標，我選擇從網站無障礙認證的檢驗標準——《網站無障礙規範》著手研究。畢竟推動網站無障礙的核心目的即在於通過認證，從實際規範出發，能更清楚掌握需要符合的條件與實作重點。為此，我投入大量時間深入研究，並將所學內容整理為筆記與技術文章，不僅於公司內部進行分享與交流，也公開提供給有相關需求的開發者，期望協助更多人更快掌握重點、順利取得網站無障礙認證。",
+        "針對《網站無障礙規範》進行條文解讀與實務應用整理，協助開發者聚焦於通過網站無障礙認證所需的關鍵實作。文章整合相關技術重點與範例，亦可作為專案開發或團隊導入無障礙設計時的參考資料。",
       image: "/medium.svg",
       links: [
         {
@@ -515,7 +515,7 @@ export const DATA = {
       dates: "Dec 14th, 2023",
       location: "Taichung, Taiwan",
       description:
-        "這篇文章是我為公司內部技術分享所撰寫，主題介紹當時剛推出的 CSS 滾動式動畫技術 —— Scroll-driven Animation。以往實作類似效果通常需透過 JavaScript 搭配工具（如 GSAP），但由於我當時尚未熟悉 GSAP，便開始尋找純 CSS 的解法，進而發現這項新技術。由於中文教學資源相對稀少，我參考原文資料並在 Medium 撰寫成文，期望與更多開發者交流分享。文章在 Medium 上累積超過 2K 瀏覽次數 (Views)、1.2K 完整閱讀次數 (Reads) 及 120 次拍手 (Claps)，也因此選定此主題作為內部分享會內容，讓更多同仁認識並應用這項技術。",
+        "介紹 CSS Scroll-driven Animation 技術，說明其在無需 JavaScript 介入的情況下如何實作滾動觸發動畫。文章針對技術原理、適用場景與語法結構進行系統性說明，並輔以實例展示。此篇文章於 Medium 獲得逾 2,100 次瀏覽與 120 次拍手，亦曾用作公司內部技術分享教材。",
       image: "/medium.svg",
       links: [
         {
@@ -530,7 +530,7 @@ export const DATA = {
       dates: "Dec 13th, 2023",
       location: "Taichung, Taiwan",
       description:
-        "這份簡報源自於希望幫助新人快速掌握 Vitest 的契機，並進一步為團隊建立紮實的測試基礎。內容從零開始，系統性地介紹 Vitest 的基礎安裝與設定、核心功能，以及實際測試案例的撰寫步驟，並輔以清晰的範例與操作說明。我希望透過這份講義，不僅能降低學習門檻，還能有效提升團隊的測試開發效率與程式碼品質。",
+        "一份從零開始學習 Vitest 的簡報教材，內容涵蓋安裝與設定流程、核心功能講解，以及撰寫測試案例的實務範例，適合用於團隊培訓或新手入門測試開發。",
       image: "/gamma.webp",
       links: [
         {
@@ -546,7 +546,7 @@ export const DATA = {
       dates: "Jun 25th, 2023",
       location: "Taichung, Taiwan",
       description:
-        "這篇技術筆記分享了我在前端開發過程中，將個人 Side Project 自動部署至 Firebase 時遇到的實務經驗。文章詳細闡述了如何透過 Github Action Secrets 安全管理敏感資訊，從建立 Secrets 到在 Workflows 中的具體應用步驟，一應俱全。身為開發者，我希望這份經驗分享能為同樣使用 Firebase 和 Github Actions 進行前端專案自動部署的夥伴們，提供一個實用的參考指南。",
+        "分享使用 Firebase 與 GitHub Actions 進行前端專案自動部署的流程與實務經驗，並詳細說明如何透過 GitHub Actions Secrets 管理部署過程中的敏感資訊。文章內容包含設定步驟與安全性考量，適合對部署自動化有需求的前端開發者參考。",
       image: "/medium.svg",
       links: [
         {
