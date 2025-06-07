@@ -8,23 +8,30 @@ import { Badge } from "@/components/ui/badge";
 import { DATA } from "@/data/resume";
 import Link from "next/link";
 import Markdown from "react-markdown";
+import { useTranslations } from "next-intl";
 
 const BLUR_FADE_DELAY = 0.04;
 
 export default function Page() {
+  const t = useTranslations("HomePage");
+
   return (
-    <main className="flex flex-col min-h-[100dvh] space-y-10">
+    <main className="flex min-h-[100dvh] flex-col space-y-10">
       <section id="hero">
         <div className="mx-auto w-full max-w-2xl space-y-8">
-          <div className="gap-2 flex justify-between">
-            <div className="flex-col flex flex-1 space-y-1.5">
+          <div className="flex justify-between gap-2">
+            <div className="flex flex-1 flex-col space-y-1.5">
               <BlurFadeText
                 delay={BLUR_FADE_DELAY}
                 className="text-2xl font-bold tracking-tighter sm:text-5xl xl:text-5xl/none"
                 yOffset={8}
                 text={`嗨！我是${DATA.name.split(" ")[0]} 👋`}
               />
-              <BlurFadeText className="max-w-[600px] md:text-xl" delay={BLUR_FADE_DELAY} text={DATA.description} />
+              <BlurFadeText
+                className="max-w-[600px] md:text-xl"
+                delay={BLUR_FADE_DELAY}
+                text={DATA.description}
+              />
             </div>
             <BlurFade delay={BLUR_FADE_DELAY}>
               <Avatar className="size-28 border">
@@ -51,7 +58,10 @@ export default function Page() {
             <h2 className="text-xl font-bold">Work Experience 💼</h2>
           </BlurFade>
           {DATA.work.map((work, id) => (
-            <BlurFade key={work.company} delay={BLUR_FADE_DELAY * 6 + id * 0.05}>
+            <BlurFade
+              key={work.company}
+              delay={BLUR_FADE_DELAY * 6 + id * 0.05}
+            >
               <ResumeCard
                 key={work.company}
                 logoUrl={work.logoUrl}
@@ -73,7 +83,10 @@ export default function Page() {
             <h2 className="text-xl font-bold">Education 🎓</h2>
           </BlurFade>
           {DATA.education.map((education, id) => (
-            <BlurFade key={education.school} delay={BLUR_FADE_DELAY * 8 + id * 0.05}>
+            <BlurFade
+              key={education.school}
+              delay={BLUR_FADE_DELAY * 8 + id * 0.05}
+            >
               <ResumeCard
                 key={education.school}
                 href={education.href}
@@ -102,23 +115,28 @@ export default function Page() {
         </div>
       </section>
       <section id="projects">
-        <div className="space-y-12 w-full py-12">
+        <div className="w-full space-y-12 py-12">
           <BlurFade delay={BLUR_FADE_DELAY * 11}>
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
-                <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
+                <div className="inline-block rounded-lg bg-foreground px-3 py-1 text-sm text-background">
                   My Projects
                 </div>
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">成果展示，靈感碰撞！🎉</h2>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
+                  成果展示，靈感碰撞！🎉
+                </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                   從簡單網站到複雜應用程式，我參與了許多富有創意且充滿挑戰的專案，快來了解一下吧！💡
                 </p>
               </div>
             </div>
           </BlurFade>
-          <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 max-w-[800px] mx-auto">
+          <div className="mx-auto grid max-w-[800px] grid-cols-1 gap-3 sm:grid-cols-2">
             {DATA.projects.map((project, id) => (
-              <BlurFade key={project.title} delay={BLUR_FADE_DELAY * 12 + id * 0.05}>
+              <BlurFade
+                key={project.title}
+                delay={BLUR_FADE_DELAY * 12 + id * 0.05}
+              >
                 <ProjectCard
                   href={project.href}
                   key={project.title}
@@ -136,14 +154,16 @@ export default function Page() {
         </div>
       </section>
       <section id="tech-sharing">
-        <div className="space-y-12 w-full py-12">
+        <div className="w-full space-y-12 py-12">
           <BlurFade delay={BLUR_FADE_DELAY * 13}>
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
-                <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
+                <div className="inline-block rounded-lg bg-foreground px-3 py-1 text-sm text-background">
                   Tech Sharing
                 </div>
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">前端開發筆記 💻</h2>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
+                  前端開發筆記 💻
+                </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                   從新技術到實戰經驗，每一個分享都充滿了挑戰與收穫，讓我們一起跟上前端的脈動！⚡
                 </p>
@@ -153,7 +173,10 @@ export default function Page() {
           <BlurFade delay={BLUR_FADE_DELAY * 14}>
             <ul className="mb-4 ml-4 divide-y divide-dashed border-l">
               {DATA.techSharing.map((project, id) => (
-                <BlurFade key={project.title + project.dates} delay={BLUR_FADE_DELAY * 15 + id * 0.05}>
+                <BlurFade
+                  key={project.title + project.dates}
+                  delay={BLUR_FADE_DELAY * 15 + id * 0.05}
+                >
                   <HackathonCard
                     title={project.title}
                     description={project.description}
@@ -169,18 +192,28 @@ export default function Page() {
         </div>
       </section>
       <section id="contact">
-        <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6 w-full py-12">
+        <div className="grid w-full items-center justify-center gap-4 px-4 py-12 text-center md:px-6">
           <BlurFade delay={BLUR_FADE_DELAY * 16}>
             <div className="space-y-3">
-              <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">Contact</div>
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">靈感乍現？我想聽聽！✨</h2>
+              <div className="inline-block rounded-lg bg-foreground px-3 py-1 text-sm text-background">
+                Contact
+              </div>
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
+                靈感乍現？我想聽聽！✨
+              </h2>
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                 有話想說嗎？隨時聯絡我！你可以撥打我的電話{" "}
-                <a href="tel:+886960779920" className="text-blue-500 hover:underline">
+                <a
+                  href="tel:+886960779920"
+                  className="text-blue-500 hover:underline"
+                >
                   +886-960779920
                 </a>{" "}
                 或發送郵件到{" "}
-                <a href="mailto:aaabear320@gmail.com" className="text-blue-500 hover:underline">
+                <a
+                  href="mailto:aaabear320@gmail.com"
+                  className="text-blue-500 hover:underline"
+                >
                   aaabear320@gmail.com
                 </a>
                 ，我會盡快回應你！
